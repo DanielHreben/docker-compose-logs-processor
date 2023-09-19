@@ -1,0 +1,27 @@
+{
+  "name": "docker-compose-logs-processor",
+  "version": "0.0.1",
+  "description": "Process docker-compose logs so they can be handled properly by tools like pino-pretty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHreben/docker-compose-logs-processor.git"
+  },
+  "keywords": [
+    "docker",
+    "compose",
+    "logs"
+  ],
+  "author": {
+    "name": "Daniel Hreben",
+    "email": "daniel.hreben@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielHreben/docker-compose-logs-processor/issues"
+  },
+  "homepage": "https://github.com/DanielHreben/docker-compose-logs-processor#readme"
+}
