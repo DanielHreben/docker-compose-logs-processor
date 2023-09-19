@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Process docker-compose logs so they can be handled properly by tools like pino-pretty",
   "main": "index.js",
+  "bin": {
+    "docker-compose-logs-processor": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
