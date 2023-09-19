@@ -4,13 +4,13 @@
   "description": "Process docker-compose logs so they can be handled properly by tools like pino-pretty",
   "main": "index.js",
   "bin": {
-    "docker-compose-logs-processor": "index.js"
+    "docker-compose-logs-processor": "src/index.js"
   },
   "files": [
-    "index.js"
+    "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.mjs"
   },
   "repository": {
     "type": "git",
